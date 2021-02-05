@@ -22,9 +22,6 @@ function SearchForm({handleInputChange, search, handleFormSubmit}) {
           placeholder="Search by Name"
           id="search"
         />
-        {/* <button onClick={handleFormSubmit} className="btn btn-primary">
-          Search
-        </button> */}
       </div>
     </form>
   );

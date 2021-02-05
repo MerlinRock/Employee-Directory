@@ -13,7 +13,7 @@ class SearchResult extends Component {
     toggleCity: false,
     sortedYoungest: false
   };
-// Used ternary here instead of if else. To sort names 
+// sort names 
   sortByName = () =>{
     this.state.toggleName ? this.namesAsc():this.nameDesc()
   }
